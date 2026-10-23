@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Griaßdi – KI-Sales-Agent",
+  "short_name": "Griaßdi",
+  "version": "0.1.0",
+  "description": "Dein KI-Sales-Agent als Seitenleiste: Anrufliste, Pitch, Live-Coaching, Qualifizierung und Termin – neben LinkedIn, CRM und jeder Website.",
+  "action": { "default_title": "Griaßdi öffnen", "default_icon": { "16": "icons/16.png", "32": "icons/32.png", "48": "icons/48.png", "128": "icons/128.png" } },
+  "icons": { "16": "icons/16.png", "32": "icons/32.png", "48": "icons/48.png", "128": "icons/128.png" },
+  "side_panel": { "default_path": "sidepanel.html" },
+  "permissions": ["sidePanel", "contextMenus", "storage"],
+  "background": { "service_worker": "background.js" }
+}
